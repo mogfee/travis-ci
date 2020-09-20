@@ -1,0 +1,5 @@
+language: go
+script:
+  - $HOME/gopath/bin/goveralls -service=travis-ci
+notifications:
+  email: false
